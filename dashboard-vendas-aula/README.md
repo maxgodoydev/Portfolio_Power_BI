@@ -2,13 +2,13 @@
 
 <img
   width="100%"
-  src="https://capsule-render.vercel.app/api?type=rect&height=140&text=DASHBOARD%20DE%20VENDAS&fontSize=30&fontColor=0F172A&fontAlignY=50&color=0:C4F135,100:8FD400"
+  src="https://capsule-render.vercel.app/api?type=rect&height=140&text=DASHBOARD%20DE%20VENDAS&fontSize=28&fontColor=10B981&fontAlignY=50&color=0:0F172A,100:1E293B"
 />
 
 <br><br>
 
 <img src="https://img.shields.io/badge/POWER%20BI-0F172A?style=flat-square&logo=powerbi&logoColor=F2C811" />
-<img src="https://img.shields.io/badge/DAX-0F172A?style=flat-square&labelColor=0F172A&color=C4F135" />
+<img src="https://img.shields.io/badge/DAX-0F172A?style=flat-square&labelColor=0F172A&color=10B981" />
 <img src="https://img.shields.io/badge/SQL%20SERVER-0F172A?style=flat-square&logo=microsoftsqlserver&logoColor=CC2927" />
 
 </div>
