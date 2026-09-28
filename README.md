@@ -19,9 +19,9 @@
 
 ## Sobre este portfólio
 
-Dois dashboards de Business Intelligence construídos em Power BI, conectados a bancos SQL Server, com modelagem relacional, medidas DAX autorais e indicadores orientados a pergunta de negócio — não só visualização.
+Três projetos em Power BI. Dois são dashboards de Business Intelligence conectados a bancos SQL Server, com modelagem relacional, medidas DAX autorais e indicadores orientados a pergunta de negócio. O terceiro é um desafio de bootcamp focado em criação de visuais.
 
-Este repositório é parte da minha transição de 12 anos em área jurídica/societário para Dados, Analytics e BI. Cada projeto abaixo documenta o modelo de dados real por trás do dashboard, não apenas o resultado visual.
+Este repositório é parte da minha transição de 12 anos em área jurídica/societário para Dados, Analytics e BI. Cada projeto abaixo documenta o que foi construído, não apenas o resultado visual.
 
 ---
 
@@ -29,17 +29,23 @@ Este repositório é parte da minha transição de 12 anos em área jurídica/so
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3>💇 Studio Patty Leão — BI</h3>
       <p>Dashboard operacional conectado a um schema de 20 tabelas que espelha um sistema real de gestão de salão (agendamento, caixa, estoque, fornecedores, notas fiscais). 19 medidas DAX autorais, incluindo projeção de faturamento e taxa de cancelamento.</p>
       <p><code>Power BI</code> · <code>DAX</code> · <code>SQL Server</code> · <code>Power Query</code></p>
       <p><a href="./studio-patty-leao-bi/README.md"><strong>Ver projeto →</strong></a></p>
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3>🧾 Dashboard de Vendas, Clientes e Regiões</h3>
       <p>Dashboard analítico sobre uma base relacional de pedidos (tabela ponte para resolver M:N pedido↔item), com 14 perguntas de negócio respondidas via DAX, incluindo ranking de produto por região com RANKX + ALLEXCEPT.</p>
       <p><code>Power BI</code> · <code>DAX</code> · <code>SQL Server</code> · <code>Modelagem Relacional</code></p>
-      <p><a href="./dashboard-vendas-aula/README.md"><strong>Ver projeto →</strong></a></p>
+      <p><a href="./dashboard-vendas-clientes-regiao/README.md"><strong>Ver projeto →</strong></a></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>🎓 Desafio DIO — Análise de Vendas</h3>
+      <p>Desafio do bootcamp de Power BI da DIO: duas páginas replicadas do curso a partir da base de exemplo e uma terceira criada por mim, com mapas de vendas, unidades vendidas e lucro por país e gráfico de pizza de lucro por segmento.</p>
+      <p><code>Power BI</code> · <code>Visualizações</code> · <code>Mapas</code></p>
+      <p><a href="./desafio-dio-analise-vendas/README.md"><strong>Ver projeto →</strong></a></p>
     </td>
   </tr>
 </table>
@@ -53,6 +59,8 @@ Este repositório é parte da minha transição de 12 anos em área jurídica/so
 | Studio Patty Leão BI | 10 | 20 | 19 |
 | Dashboard de Vendas | 14 | 6 | 8 |
 
+> O Desafio DIO não entra na tabela: o foco dele é criação de visuais, não modelagem nem DAX.
+
 ---
 
 ## Estrutura do repositório
@@ -60,10 +68,12 @@ Este repositório é parte da minha transição de 12 anos em área jurídica/so
 ```
 Portfolio_Power_BI/
 │
-├── dashboard-vendas-aula/
+├── dashboard-vendas-clientes-regiao/
 │   ├── Dashboard_Vendas_Clientes_Regiao.pbix
 │   ├── README.md
 │   └── assets/
+│
+├── desafio-dio-analise-vendas/
 │
 ├── studio-patty-leao-bi/
 │   ├── Studio_Patty_Leao_BI.pbix
@@ -77,7 +87,7 @@ Portfolio_Power_BI/
 
 ## Observação sobre os dados
 
-Os dados utilizados são simulados/fictícios, gerados para fins acadêmicos e de portfólio. Nenhum dado real de cliente, empresa ou terceiro foi utilizado.
+Os dados dos dois dashboards conectados ao SQL Server são simulados/fictícios, gerados para fins acadêmicos e de portfólio. O Desafio DIO usa a base de exemplo fornecida pelo curso. Nenhum dado real de cliente, empresa ou terceiro foi utilizado.
 
 ---
 
