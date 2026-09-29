@@ -32,7 +32,7 @@ Os arquivos originais (PNG e MP4) ficam na pasta [`demo/`](demo/).
 
 O relatório foi publicado no Power BI Service, no **Meu workspace**, com as três páginas e os mapas renderizando. O acesso é privado (conta institucional, sem compartilhamento público), por isso não há link: a evidência é o print abaixo, feito na página **Análise Geográfica** já no Service.
 
-<img src="demo/publicado-service.png" alt="Relatório publicado no Power BI Service, página Análise Geográfica" width="100%" />
+<img src="demo/relatorio_publicado_privado.png" alt="Relatório publicado no Power BI Service, página Análise Geográfica" width="100%" />
 
 ## Conteúdo da pasta
 
